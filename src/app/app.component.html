@@ -1,4 +1,6 @@
-<app-nova-transferencia
-  (transferEvent)="transferir($event)"
-></app-nova-transferencia>
-<app-extrato></app-extrato>
+<header>
+  <a routerLink="extrato">Bytebank</a>
+  <a routerLink="nova-transferencia/" routerLinkActive="ativo">Nova Tansferência</a>
+</header>
+
+<router-outlet></router-outlet>
